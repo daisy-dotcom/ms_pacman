@@ -1,0 +1,84 @@
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Configure stats pid to 818028
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Loading settings from /home/tristan/.config/wandb/settings
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Loading settings from /home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/settings
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:_log_setup():532] Logging user logs to /home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/run-20241021_101627-vxjg1y7v/logs/debug.log
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:_log_setup():533] Logging internal logs to /home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/run-20241021_101627-vxjg1y7v/logs/debug-internal.log
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fea749c61d0>
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:init():617] calling init triggers
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'gamma': 0.99, 'hidden_sizes': (128, 128), 'epsilon': 1.0, 'min_epsilon': 0.01, 'rep_omega': 0.2, 'tau': 0.1, 'learning_rate': 0.001, 'epsilon_update': 1500000, 'replay_size': 50000, 'minibatch_size': 32, 'target_update_freq': 1000, 'num_episodes': 700, 'max_steps_per_episode': 18000, 'criterion_episodes': 5}
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:init():667] starting backend
+2024-10-21 10:16:27,953 INFO    MainThread:818028 [wandb_init.py:init():671] sending inform_init request
+2024-10-21 10:16:27,954 INFO    MainThread:818028 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-21 10:16:27,954 INFO    MainThread:818028 [wandb_init.py:init():684] backend started and connected
+2024-10-21 10:16:27,957 INFO    MainThread:818028 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-21 10:16:27,958 INFO    MainThread:818028 [wandb_init.py:init():779] updated telemetry
+2024-10-21 10:16:27,962 INFO    MainThread:818028 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-21 10:16:28,439 INFO    MainThread:818028 [wandb_init.py:init():863] starting run threads in backend
+2024-10-21 10:16:28,545 INFO    MainThread:818028 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-21 10:16:28,545 INFO    MainThread:818028 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-21 10:16:28,545 INFO    MainThread:818028 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-21 10:16:28,545 INFO    MainThread:818028 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-21 10:16:28,546 INFO    MainThread:818028 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-21 10:16:28,548 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:16:28,548 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:20:45,556 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:20:45,559 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:20:45,559 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:20:56,324 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:39:05,968 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:39:05,968 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:41:59,346 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:41:59,349 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:41:59,349 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:42:00,764 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:42:00,841 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:42:00,841 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:42:47,855 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:42:47,858 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:42:47,858 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:42:48,940 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:42:49,156 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:42:49,156 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:43:43,806 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:43:43,808 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:43:43,809 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 10:43:45,247 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 10:54:56,959 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 10:54:56,959 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 11:52:52,473 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 11:53:21,307 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 11:53:21,307 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 12:16:46,036 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 12:16:46,037 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 12:16:46,037 INFO    MainThread:818028 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-21 12:16:46,835 INFO    MainThread:818028 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Configure stats pid to 818028
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Loading settings from /home/tristan/.config/wandb/settings
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Loading settings from /home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/settings
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_init.py:_log_setup():532] Logging user logs to /home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/run-20241021_121646-uix2uwlu/logs/debug.log
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_init.py:_log_setup():533] Logging internal logs to /home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/run-20241021_121646-uix2uwlu/logs/debug-internal.log
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_init.py:init():617] calling init triggers
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'gamma': 0.99, 'hidden_sizes': (128, 128), 'epsilon': 1.0, 'min_epsilon': 0.01, 'rep_omega': 0.2, 'tau': 0.1, 'learning_rate': 0.001, 'epsilon_update': 1500000, 'replay_size': 50000, 'minibatch_size': 32, 'target_update_freq': 1000, 'num_episodes': 700, 'max_steps_per_episode': 18000, 'criterion_episodes': 5}
+2024-10-21 12:16:46,944 INFO    MainThread:818028 [wandb_init.py:init():642] re-initializing run, found existing run on stack: vxjg1y7v
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [wandb_run.py:_finish():2164] finishing run tristancarlisle/Bron-Dueling-DDQN/vxjg1y7v
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [wandb_run.py:_restore():2410] restore
+2024-10-21 12:16:46,945 INFO    MainThread:818028 [wandb_run.py:_restore():2416] restore done
+2024-10-21 12:16:51,948 INFO    MainThread:818028 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-21 12:16:51,948 INFO    MainThread:818028 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-21 12:16:51,950 INFO    MainThread:818028 [wandb_run.py:_footer_sync_info():4008] logging synced files

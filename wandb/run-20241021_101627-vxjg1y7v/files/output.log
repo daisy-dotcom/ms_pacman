@@ -1,0 +1,3 @@
+WARNING:py.warnings:/home/tristan/miniconda3/envs/ReinforcementLearning/lib/python3.11/site-packages/gymnasium/utils/passive_env_checker.py:335: UserWarning: [33mWARN: No render fps was declared in the environment (env.metadata['render_fps'] is None or not defined), rendering may occur at inconsistent fps.[0m
+  logger.warn(
+Reward: 0.0

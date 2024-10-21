@@ -1,0 +1,10 @@
+{"time":"2024-10-21T12:28:44.574105902+08:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-21T12:28:44.574116533+08:00","level":"INFO","msg":"created symlink","path":"/home/tristan/UniStuff/ReinforcementLearning/ms_pacman/wandb/run-20241021_122841-abx9meh2/logs/debug-core.log"}
+{"time":"2024-10-21T12:28:44.57419106+08:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-21T12:28:44.576711324+08:00","level":"INFO","msg":"created new stream","id":"abx9meh2"}
+{"time":"2024-10-21T12:28:44.576723165+08:00","level":"INFO","msg":"stream: started","id":"abx9meh2"}
+{"time":"2024-10-21T12:28:44.576736157+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"abx9meh2"}}
+{"time":"2024-10-21T12:28:44.576733616+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"abx9meh2"}}
+{"time":"2024-10-21T12:28:44.576742657+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"abx9meh2"}}
+{"time":"2024-10-21T12:28:45.047333776+08:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-21T12:28:45.047640686+08:00","level":"INFO","msg":"Starting system monitor"}
