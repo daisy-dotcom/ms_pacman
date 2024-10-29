@@ -1,3 +1,6 @@
+1. Jupyter lab installation 
+```Ruby conda install -c conda-forge jupyterlab ```
+
 pip install requirements text and run through AssignmentMasterfile.ipynb
 All wandb visualisations available in html just download and view or link available in notebook file
 wandb links
