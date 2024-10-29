@@ -1,7 +1,15 @@
 1. Jupyter lab installation 
 ```Ruby conda install -c conda-forge jupyterlab ```
-
-pip install requirements text and run through AssignmentMasterfile.ipynb
+2. Create conda environment with yml
+ ```Ruby  conda env create -f environment.yml ```
+3. Activate Environment conda
+    ```Ruby activate ReinforcementLearning```
+4. Pipi install requirements
+   ```Ruby pip install -r requirements.txt```
+6. Strat a jupyter notebook
+  ```Ruby jupyter lab```
+   
+Run through AssignmentMasterfile.ipynb
 All wandb visualisations available in html just download and view or link available in notebook file
 wandb links
 
