@@ -9,7 +9,13 @@
 6. Strat a jupyter notebook
   ```jupyter lab```
    
-Run through AssignmentMasterfile.ipynb
+Run through AssignmentMasterfile.ipynb, This will also allow you to run through Backgammon Duelling DQN and PPO copy files. 
+
+
+
+#############################################################################################################################################################################################################################
+
+
 All wandb visualisations available in html just download and view or link available in notebook file
 wandb links
 
